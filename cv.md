@@ -48,8 +48,8 @@ function getArraysSum(arr1, arr2) {
 
 ### **Courses:**
 - HTML and CSS Start on [ITVDN](https://itvdn.com/ua) (completed)
-- JavaScript Start on [ITVDN](https://itvdn.com/ua) (in progress)
-- RS Schools Course «JavaScript/Front-end. Stage 1» (now)
+- JavaScript Start on [ITVDN](https://itvdn.com/ua) (completed)
+- RS Schools Course «JavaScript/Front-end. Stage 0» (now)
 
 
 ### **Languages:**
