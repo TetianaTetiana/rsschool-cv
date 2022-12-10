@@ -122,25 +122,38 @@ body{
     color: rgb(103, 123, 252);
     text-decoration: underline;
 }
+
+details{
+    margin: -30px 0 0 40px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: monospace;
+}
+pre{
+    width: 398px;
+    color: #000000;
+    background-color:rgb(151, 218, 232);
+    border-radius: 20px;
+}
 /* Main-------------------------------------------------------------- */
 .main{
     width: 100%;
     margin-left: 80px;
 }
 
-.about {
+.header {
     margin: 40px 0 50px;
     max-width: 500px;
 }
 
-.about-subtitle {
+.header-subtitle {
     font-weight: 700;
     line-height: 1.2;
     color: #000000;
     font-size: 19px;
 }
 
-.about-title {
+.header-title {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
@@ -148,7 +161,7 @@ body{
     padding: 20px 0;
 }
 
-.about-text {
+.header-text {
     font-weight: 400;
     line-height: 1.6;
     letter-spacing: .3px;

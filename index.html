@@ -11,11 +11,11 @@
 <body>
     <div class="wrapper">
         <div class="container">
-            <div class="aside">
+            <aside class="aside">
                 <div class="aside-img">
                     <img src="cv-img/photo.jpg" alt="my_photo">
                 </div>
-                <div class="contacts">
+                <nav class="contacts">
                     <h3 class="contacts-title title">
                         Contacts
                     </h3>
@@ -33,6 +33,17 @@
                             </a>
                         </li>
                     </ul>
+                </nav>
+                <div class="languages">
+                    <h3 class="languages-title title">
+                        Languages
+                    </h3>
+                    <ul class="languages-list">
+                        <li class="languages-item">English - Intermediate (<span>according to the online test at <a href="https://www.efset.org/" target="_blank">EFset</a></span>)</li>
+                        <li class="languages-item">Ukrainian - Native</li>
+                        <li class="languages-item">Spanish - Basic</li>
+                        <li class="languages-item">Russian - Fluent</li>
+                    </ul>
                 </div>
                 <div class="tech-skills">
                     <h3 class="tech-skills-title title">
@@ -46,41 +57,50 @@
                         <li class="tech-skills-item">Figma</li>
                     </ul>
                 </div>
-                <div class="languages">
-                    <h3 class="languages-title title">
-                        Languages
-                    </h3>
-                    <ul class="languages-list">
-                        <li class="languages-item">English - Intermediate (<span>according to the online test at <a href="https://www.efset.org/" target="_blank">EFset</a></span>)</li>
-                        <li class="languages-item">Ukrainian - Native</li>
-                        <li class="languages-item">Spanish - Basic</li>
-                        <li class="languages-item">Russian - Fluent</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="main">
-                <div class="about">
-                    <h2 class="about-subtitle">
+                <details>
+                    <summary>Code example</summary>
+<pre>
+<code>
+function getArraysSum(arr1, arr2) {
+    let sumOne = 0;
+    let sumTwo = 0;
+
+for(let i = 0; i &lt; arr1.length; i += 1){
+    sumOne += arr1[i];
+}
+for(let i = 0; i &lt; arr2.length; i += 1){
+    sumTwo += arr2[i];
+}
+    return sumOne + sumTwo;
+}
+</code>
+</pre>
+                </details>
+            </aside>
+
+            <main class="main">
+                <header class="header">
+                    <h2 class="header-subtitle">
                        Future Front-End Developer
                     </h2>
-                    <h1 class="about-title">
+                    <h1 class="header-title">
                         Tetiana Karpenko
                     </h1>
-                    <p class="about-text">
+                    <p class="header-text">
                         I have an inquisitive nature, which led me to study programming.<br>
                         I currently have two professions, and neither of them are related to web technologies.<br>
                         Learning a new profession as a web developer on my own and I realy love it!<br>
                         Having a goal and a crazy motivation, I will not stop until I get a job in a field that is still new to me.<br>
                         Not a people person but wish everybody all kinds of happiness!
                     </p>
-                </div>
+                </header>
                 <div class="projects">
                     <h3 class="projects-title">
                         My Projects
                     </h3>
                     <ol class="projects-list">
                         <li class="projects-item">
-                            <a href="#">My resume..........................................................................................................<span>[</span> HTML5, CSS3 <span>]</span></a>
+                            <a href="https://tetianatetiana.github.io/rsschool-cv/">My resume..........................................................................................................<span>[</span> HTML5, CSS3 <span>]</span></a>
                         </li>
                         <li class="projects-item">
                             <a href="#">Plants (soon).......................................................................................................<span>[</span> HTML5, CSS3 <span>]</span></a>
@@ -143,6 +163,7 @@
                         </li>
                     </ul>
                 </div>
+
                 <footer class="footer">
                     <div class="footer-author">
                         <a class="git" target="_blank" href="https://github.com/TetianaTetiana">
@@ -158,7 +179,7 @@
                         </a>
                     </div>
                 </footer>
-            </div>
+            </main>
         </div>
     </div>
 </body>
